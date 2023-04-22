@@ -1,0 +1,25 @@
+/* Navigation bar specific style sheet
+Inherit styles from main styles.css for font, etc. */
+@import url("styles.css");
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background: #BEBEBE;
+    padding: 0 15px;
+}
+
+.nav_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.nav_link {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}

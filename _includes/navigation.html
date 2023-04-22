@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/navbar.css">
 </head>
 
 <body>
@@ -11,11 +11,14 @@
         <a href="index.html">
             <h3>Site_Name</h3>
         </a>
-        {% for item in site.data.navigation %}
-        <a id="nav_items" href="{{ item.link }}" {% if page.url==item.link %}style="color: red;" {% endif %}>
-            {{ item.name }}
-        </a>
-        {% endfor %}
+        <div class="nav_list">
+            {% for item in site.data.navigation %}
+            <a class="nav_link" href="{{ item.link }}" {% if page.url==item.link %}style="color: red;" {% endif %}>
+                {{ item.name }}
+            </a>
+            {% endfor %}
+        </div>
+
     </nav>
 </body>
 
