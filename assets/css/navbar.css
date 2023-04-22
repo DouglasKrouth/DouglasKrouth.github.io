@@ -11,15 +11,12 @@ nav {
     padding: 0 15px;
 }
 
-.nav_list {
+#nav_list {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-
+    justify-content: space-between;
 }
 
-.nav_link {
+#nav_link {
     display: flex;
-    justify-content: space-evenly;
-    padding: 10px;
 }
