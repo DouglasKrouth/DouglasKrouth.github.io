@@ -5,18 +5,21 @@ Inherit styles from main styles.css for font, etc. */
 nav {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     background: #BEBEBE;
     padding: 0 15px;
 }
 
 #nav_list {
+    gap: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    padding: 10px;
 }
 
 #nav_link {
     display: flex;
+    justify-content: space-around;
 }
