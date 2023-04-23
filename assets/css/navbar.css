@@ -8,18 +8,20 @@ nav {
     flex-direction: row;
     align-items: center;
     background: #BEBEBE;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
 .nav_list {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-
-}
-
-.nav_link {
-    display: flex;
     justify-content: space-evenly;
-    padding: 10px;
+    gap: 20px;
 }
+
+/* .nav_link {
+    display: flex;
+    justify-content: space-around;
+} */
