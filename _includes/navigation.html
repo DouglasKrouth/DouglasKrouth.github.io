@@ -7,7 +7,7 @@
 
 <nav>
     <!-- This value is hardcoded to index.html - Would probably be better to pass this as jekyll nav param -->
-    <a href="index.html">
+    <a href="/">
         <img class="dk_logo" src="../assets/images/dk_initial.png">
     </a>
     <div class="nav_list">
@@ -16,6 +16,14 @@
             {{ item.name }}
         </a>
         {% endfor %}
+        <div class="dropdown">
+            <button class="dropbtn">Misc.</button>
+            <div class="dropdown-content">
+              <a href="/albums">Albums</a>
+              <a href="/recipes">Recipes</a>
+              <a href="/books">Books</a>
+            </div>
+          </div>
     </div>
 
 </nav>
