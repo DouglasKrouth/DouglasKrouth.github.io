@@ -1,0 +1,33 @@
+/* Inherit styles from main styles.css for font, etc. */
+@import url("styles.css");
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding-bottom: 2.5rem; */
+    /* Footer height */
+    height: 4.5rem;
+    bottom: 0;
+}
+
+.footer_break{
+    width: 50%;
+    color: grey;
+}
+
+.footer_link_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.footer_lower_text {
+    font-weight: light;
+    font-style: italic;
+    
+}

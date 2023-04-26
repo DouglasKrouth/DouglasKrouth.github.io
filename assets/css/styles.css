@@ -14,17 +14,6 @@ body {
     height: 100%;
 }
 
-footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    font-weight: bold;
-    padding-bottom: 2.5rem;    /* Footer height */
-    height: 2.5rem;
-    bottom: 0;
-
-}
 
 a:link {
     text-decoration: none;
