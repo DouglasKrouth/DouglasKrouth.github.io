@@ -14,11 +14,36 @@ nav {
     border: 1px solid black;
 }
 
+.dk_logo {
+    max-height: 60px;
+
+}
+
 .nav_list {
     display: flex;
+    flex-shrink: 1;
     flex-direction: row;
     justify-content: space-evenly;
     gap: 20px;
+}
+
+.nav_link:link {
+    text-decoration: none;
+}
+
+.nav_link:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_link:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.nav_link:active {
+    text-decoration: underline;
+    color: white;
 }
 
 /* .nav_link {

@@ -11,6 +11,7 @@ body {
     padding-left: 5%;
     padding-right: 5%;
     flex-grow: 1;
+    height: 100%;
 }
 
 footer {
@@ -19,8 +20,10 @@ footer {
     align-items: center;
     justify-content: space-around;
     font-weight: bold;
-    position: absolute;
+    padding-bottom: 2.5rem;    /* Footer height */
     height: 2.5rem;
+    bottom: 0;
+
 }
 
 a:link {

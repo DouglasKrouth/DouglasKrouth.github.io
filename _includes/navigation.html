@@ -8,11 +8,11 @@
 <nav>
     <!-- This value is hardcoded to index.html - Would probably be better to pass this as jekyll nav param -->
     <a href="index.html">
-        <h3>Douglas Krouth</h3>
+        <img class="dk_logo" src="../assets/images/dk_initial.png">
     </a>
     <div class="nav_list">
         {% for item in site.data.navigation %}
-        <a class="nav_link" href="{{ item.link }}" {% if page.url==item.link %}style="color: red;" {% endif %}>
+        <a class="nav_link" href="{{ item.link }}" {% if page.url==item.link %}{% endif %}>
             {{ item.name }}
         </a>
         {% endfor %}
