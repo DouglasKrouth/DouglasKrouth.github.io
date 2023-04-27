@@ -7,11 +7,10 @@ nav {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    background: #BEBEBE;
+    padding-top: 10px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 10px;
-    border: 1px solid black;
 }
 
 .dk_logo {
