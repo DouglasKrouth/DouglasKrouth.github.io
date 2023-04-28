@@ -59,6 +59,13 @@ body {
     justify-content: space-around;
 }
 
+/* https://css-tricks.com/old-timey-terminal-styling/ */
+.index_json_description {
+    font: 1rem Inconsolata, monospace;
+    /* text-shadow: 0 0 3px grey; */
+
+
+}
 a:link {
     text-decoration: none;
     color: black;
