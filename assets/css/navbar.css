@@ -23,6 +23,8 @@ nav {
     flex-shrink: 1;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5vw;
     gap: 20px;
 }
 
@@ -63,4 +65,8 @@ nav {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.social_logo {
+    width: 1.5vw;
 }
