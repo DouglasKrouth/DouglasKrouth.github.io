@@ -14,6 +14,7 @@ footer {
 
 .footer_break{
     width: 50%;
+    opacity: 50%;
     color: grey;
 }
 
@@ -21,13 +22,13 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 100px;
+    gap: 3vw;
     justify-content: space-between;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
-.footer_lower_text {
+.footer_jekyll_link, .footer_lower_text {
     font-weight: light;
-    font-style: italic;
-    
+    font-style: italic; 
+    font-size: 1.8vh;
 }
