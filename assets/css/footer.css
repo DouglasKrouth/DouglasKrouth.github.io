@@ -27,7 +27,7 @@ footer {
     /* font-weight: bold; */
 }
 
-.footer_jekyll_link, .footer_lower_text {
+.footer_link, .footer_lower_text {
     font-weight: light;
     font-style: italic; 
     font-size: 1.8vh;
