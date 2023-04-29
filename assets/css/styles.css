@@ -65,7 +65,7 @@ body {
 }
 
 /* https://css-tricks.com/old-timey-terminal-styling/ */
-.index_json_description {
+.json_description {
     font: 1rem Inconsolata, monospace;
     font-size: small;
     line-height: 18pt;
