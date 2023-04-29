@@ -22,7 +22,7 @@ body {
 .code_pre {
     margin: 0;
 }
-    
+
 
 .intro_container {
     display: flex;
@@ -38,17 +38,21 @@ body {
     justify-content: flex-start;
 }
 
-.home_page_name_pre_text {
+.home_page_name_pre_text,
+.resume_pre_text {
     font-size: 2vw;
     font-style: italic;
     color: rgb(89, 86, 86);
     margin: .5vh;
 }
 
-.home_page_name {
+.home_page_name,
+.resume_header {
     color: #800000;
     font-size: 3vw;
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .home_page_photo {
@@ -73,6 +77,7 @@ body {
 
 
 }
+
 a:link {
     text-decoration: none;
     color: black;
