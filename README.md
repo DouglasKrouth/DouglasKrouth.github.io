@@ -7,3 +7,8 @@ sudo apt-get install ruby-full
 ```bash
  gem install bundler jekyll
 ```
+3. Download dependencies
+```bash
+cd ./DouglasKrouth.github.io
+bundle install
+```
