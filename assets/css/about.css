@@ -9,7 +9,6 @@
 }
 .about_grid {
     display: grid;
-    border: dotted;
     gap: 5px;
 }
 
@@ -18,12 +17,16 @@
     flex-direction: column;
 }
 
-.about_grid_content_header {
-    font-style: bold;
-    color: red;
+.about_grid_section_header {
+    font-size: 1.5rem;
+    padding-bottom: 15px;
 }
 
 .about_grid_content_description_header {
-    color: green;
-    text-indent: 25px;
+    font-weight: bold;
 }
+.about_grid_content {
+    text-indent: 25px;
+    padding-bottom: 15px;
+}
+
