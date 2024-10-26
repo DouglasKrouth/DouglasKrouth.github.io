@@ -1,3 +1,3 @@
 #!/bin/bash
 
-bundle exec jekyll serve --open-url --livereload --incremental
+bundle exec jekyll serve --open-url --livereload
