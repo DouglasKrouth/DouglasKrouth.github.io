@@ -10,6 +10,7 @@ footer {
     /* Footer height */
     height: 4.5rem;
     bottom: 0;
+    font-style: italic;
 }
 
 .footer_break{
@@ -25,10 +26,4 @@ footer {
     gap: 3vw;
     justify-content: space-between;
     /* font-weight: bold; */
-}
-
-.footer_link, .footer_lower_text {
-    font-weight: light;
-    font-style: italic; 
-    font-size: 1.8vh;
 }

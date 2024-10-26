@@ -12,7 +12,7 @@ nav {
 
 .dk_logo {
     padding-top: 10px;
-    height: 4em;
+    height: 6em;
     /*max-height: 60px;*/
 }
 
@@ -25,11 +25,38 @@ nav {
 }
 
 .nav_link {
-    font-size: 1.25em;
+    font-size: 1.25rem;
     padding: 1vw;
 }
 
 .social_logo {
-    height: 1.25em;
+    height: 1.5rem;
     padding: .75vw;
+}
+
+@media screen and (max-width: 1020px) {
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav_link {
+    padding: 1.25vw;
+    font-size: 1rem;
+}
+
+.social_logo {
+    height: 1.25em;
+    padding: 1.25vw;
+}
+
+.dk_logo {
+    padding-top: 10px;
+    height: 4em;
+    /*max-height: 60px;*/
+}
+
 }
