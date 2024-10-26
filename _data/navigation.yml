@@ -1,4 +1,4 @@
-- name: About
+- name: Doug Facts
   link: /about
-- name: Resume
-  link: /resume
+# - name: Stuff
+#   link: /stuff

@@ -1,71 +1,31 @@
 * {
     font-family: sans-serif;
-    font-size: 16px;
-}
-
-@viewport {
-    width: device-width;
-    zoom: 1.0;
+    background-color: #f9f5d7;
+    color: #1d2021
 }
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: stretch;
     padding-left: 5%;
     padding-right: 5%;
     flex-grow: 1;
-    height: 100%;
-}
-
-.code_pre {
-    margin: 0;
-}
-
-
-.intro_container {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
-    gap: 5vw;
-}
-
-.intro_text_container {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    justify-content: flex-start;
-}
-
-.home_page_name_pre_text,
-.resume_pre_text {
-    font-size: 2vw;
-    font-style: italic;
-    color: rgb(89, 86, 86);
-    margin: .5vh;
-}
-
-.home_page_name,
-.resume_header {
-    color: #800000;
-    font-size: 3vw;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-.home_page_photo {
-    width: 30vw;
-    border-radius: 5%;
+    min-height: 100vh;
 }
 
 .content {
+    font-size: 1.25rem;
     padding-top: 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    flex: 1;
+}
+
+.page_header {
+    font-size: 2rem;
+    color: #3c3836;
 }
 
 /* https://css-tricks.com/old-timey-terminal-styling/ */
@@ -76,6 +36,10 @@ body {
     /* text-shadow: 0 0 3px grey; */
 
 
+}
+
+.author_name {
+    color: #cc241d;
 }
 
 a:link {
