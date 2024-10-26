@@ -1,9 +1,5 @@
 @import url("styles.css");
 
-.author_name {
-    color: #cc241d;
-}
-
 .intro_container {
     display: flex;
     /*justify-content: center;*/

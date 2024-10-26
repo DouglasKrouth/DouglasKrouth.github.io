@@ -27,6 +27,7 @@ body {
     font-size: 2rem;
     color: #3c3836;
 }
+
 /* https://css-tricks.com/old-timey-terminal-styling/ */
 .json_description {
     font: 1rem Inconsolata, monospace;
@@ -35,6 +36,10 @@ body {
     /* text-shadow: 0 0 3px grey; */
 
 
+}
+
+.author_name {
+    color: #cc241d;
 }
 
 a:link {
