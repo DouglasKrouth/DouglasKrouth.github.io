@@ -1,11 +1,23 @@
 ---
 layout: default
-title: About
+title: Stuff
 ---
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/assets/css/about.css">
+    <link rel="stylesheet" href="/assets/css/stuff.css">
 </head>
 <body>
+    <ul>
+        {% for category in site.categories %}
+            <li><a name="{{ category | first }}">{{ category | first }}</a>
+                <ul>
+                    {% for post in category.last %}
+                    <li><a href="{{ post.url }}"><span class="post-title">{{ post.title }}</span><span class="post-publish-date"> ({{ post.original_publish_date }})</span></a></li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+</ul>
 </body>
+
