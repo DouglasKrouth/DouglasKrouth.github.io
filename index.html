@@ -5,7 +5,7 @@ title: Douglas Krouth
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../assets/css/home_page.css">
+    <link rel="stylesheet" href="/assets/css/home_page.css">
 </head>
 <body>
     <div class="intro_container">
@@ -18,5 +18,12 @@ title: Douglas Krouth
             <img class="home_page_image" src="/assets/images/Doug_and_Cosmo.jpeg" alt="Doug and Cosmo the Tabby Cat!">
         </div>
     </div>
+    <ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 </body>
 

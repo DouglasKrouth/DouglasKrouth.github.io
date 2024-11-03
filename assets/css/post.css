@@ -1,0 +1,6 @@
+/*Styles for Markdown posts*/
+@import url("styles.css");
+
+h1 {
+    color: purple;
+}
