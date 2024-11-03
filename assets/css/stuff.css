@@ -1,0 +1,36 @@
+/*Styles for stuff page responsible for listing posts*/
+.content {
+    border: dotted;
+    flex-direction: column-reverse;
+    display: none;
+    align-items: none;
+}
+
+.post-category-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.post-category-li {
+    list-style-type: none;
+}
+
+.post-category-title {
+    font-size: 1.2em;
+    color: brown;
+}
+
+.post-title-list {
+    padding-top: 10px;
+}
+
+.post-title {
+    color: purple;
+    overflow-wrap: break-word;
+}
+
+.post-publish-date {
+    font-size: .8em;
+    font-style: italic;
+    color: grey;
+}

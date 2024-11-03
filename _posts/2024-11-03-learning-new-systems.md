@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Learning new systems or projects"
-categories: ["programming-tips"]
+categories: ["Programming Tips"]
 original_publish_date: 11-03-2024
 ---
 
