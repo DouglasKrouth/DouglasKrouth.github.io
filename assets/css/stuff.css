@@ -1,31 +1,43 @@
 /*Styles for stuff page responsible for listing posts*/
-.content {
-    border: dotted;
-    flex-direction: column-reverse;
-    display: none;
-    align-items: none;
+@import "/assets/css/styles.css";
+
+.stuff-container {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
 }
 
 .post-category-list {
     padding: 0;
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .post-category-li {
+    padding-bottom: 20px;
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .post-category-title {
     font-size: 1.2em;
-    color: brown;
+    font-style: italic;
 }
 
 .post-title-list {
     padding-top: 10px;
 }
 
+.ind-post-li {
+    padding: 0;
+    list-style-type: none;
+}
+
 .post-title {
-    color: purple;
     overflow-wrap: break-word;
 }
 
@@ -33,4 +45,26 @@
     font-size: .8em;
     font-style: italic;
     color: grey;
+}
+
+
+@media screen and (max-width: 1020px) {
+.post-title-list {
+    padding-top: 10px;
+    margin-left: -40px;
+}
+
+.post-title {
+    overflow-wrap: break-word;
+}
+
+.ind-post-li {
+    padding: 0;
+    list-style-type: none;
+}
+
+.stuff-div {
+    width: 100%;
+}
+
 }

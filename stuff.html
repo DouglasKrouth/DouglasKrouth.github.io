@@ -2,24 +2,23 @@
 layout: default
 title: Stuff
 ---
-
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/assets/css/styles.css" type="text/css">
-    <link rel="stylesheet" href="/assets/css/stuff.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/stuff.css" type="text/css">
 </head>
 <body>
-        <span class="page_header">Piping hot <b class="author_name">content</b></span>
+    <div class="stuff-container">
+        <div class="page_header">Piping hot <b class="author_name">Content</b></div>
         <ul class="post-category-list">
             {% for category in site.categories %}
                 <li class="post-category-li"><span class="post-category-title" name="{{ category | first }}">{{ category | first }}</span>
                     <ul class="post-title-list">
                         {% for post in category.last %}
-                        <li><a href="{{ post.url }}"><span class="post-title">{{ post.title }}</span><span class="post-publish-date">  ({{ post.original_publish_date }})</span></a></li>
+                        <li class="ind-post-li"><a href="{{ post.url }}"><span class="post-title">{{ post.title }}</span><span class="post-publish-date">   ({{ post.original_publish_date }})</span></a></li>
                         {% endfor %}
                     </ul>
                 </li>
             {% endfor %}
         </ul>
+    </div>
 </body>
-

@@ -1,22 +1,17 @@
-<!doctype html>
-<html>
-
+---
+layout: default
+---
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/assets/css/post.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon Generator : https://favicon.io/favicon-generator/-->
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
-    <title>{{ page.title }}</title>
 </head>
-
 <body>
-    {% include navigation.html %}
-    <div class="content">
-        {{ content }}
+    <div class="post-container">
+    <div class="page_header">{{ page.title }}</div>
+    <p class="author-and-date">{{ page.date | date_to_string }} - {{ page.author }}</p>
+    {{ content }}
     </div>
-    {% include footer.html %}
 </body>
-
-</html>
-
