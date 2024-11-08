@@ -5,6 +5,8 @@ title: "Learning new systems or projects"
 categories: ["Programming Tips"]
 original_publish_date: 11-03-2024
 ---
+## WIP
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar vitae turpis ac ornare. Morbi fermentum at ante at faucibus. Suspendisse porta, lorem nec pretium condimentum, lectus sem dapibus nunc, aliquam imperdiet mi lacus et nunc. Duis ultricies dui lacus, vitae ullamcorper nisi feugiat eu. Nullam id fringilla urna. Integer finibus consectetur tellus tempor aliquet. Etiam porta lorem dictum quam euismod condimentum. Nunc in urna risus. Integer mauris nunc, rutrum nec sollicitudin non, tincidunt ac tellus. Mauris gravida urna eu metus dignissim pulvinar. Curabitur ut augue viverra, molestie massa non, posuere orci. Aliquam erat volutpat. Vestibulum aliquet ac nibh non congue.
 
 Sed elementum faucibus ultricies. Aliquam sodales purus elementum, dictum elit ac, euismod lorem. Nulla et hendrerit quam, et commodo ex. Sed elementum, enim id cursus congue, arcu quam tincidunt est, sed pellentesque nunc metus nec diam. Quisque mollis vulputate erat, sed viverra odio elementum ac. Cras interdum dolor arcu, vel sollicitudin est scelerisque ut. Proin hendrerit iaculis leo id laoreet.
