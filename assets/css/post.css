@@ -1,0 +1,19 @@
+@import "/assets/css/styles.css";
+
+.post-container {
+    width: 80%;
+}
+
+.author-and-date {
+    color: #cc241d;
+}
+
+@media screen and (max-width: 1020px) {
+.page_header {
+    color: red;
+}
+
+.post-container {
+    width: 95%;
+}
+}

@@ -12,3 +12,7 @@ sudo apt-get install ruby-full
 cd ./DouglasKrouth.github.io
 bundle install
 ```
+
+## Fun potential additions, ideas
+* Add a CI step to auto-update publication/edit dates to posts
+* Add a CI step for checking whether the list of categories is "correct" based on some predefined list to avoid accidentally publishing under an incorrect/redundant category
