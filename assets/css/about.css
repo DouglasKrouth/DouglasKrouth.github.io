@@ -1,10 +1,18 @@
-@import url("styles.css");
+@import "/assets/css/styles.css";
 
 .about_container {
     display: flex;
     /*justify-content: center;*/
     flex-direction: column;
     width: 80%
+}
+
+.personal-facts-list {
+    list-style: none;
+}
+
+.personal-facts-list-item {
+    padding-bottom: 5px;
 }
 
 .about_grid {
@@ -28,7 +36,7 @@
 }
 
 .about_grid_section_header {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     padding-bottom: 15px;
 }
 
@@ -38,6 +46,11 @@
 .about_grid_content {
     /*text-indent: 25px;*/
     padding-bottom: 15px;
+}
+
+.resume-download-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 @media screen and (max-width: 1020px) {
