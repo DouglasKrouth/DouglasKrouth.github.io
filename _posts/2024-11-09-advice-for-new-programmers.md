@@ -65,6 +65,7 @@ If you don't want to set up a dedicated computer to learn Linux/Unix system conc
 
 
 **Links and resources to learn Linux/Unix/POSIX:**
+
 <ins>Tutorials and docs</ins>
 * [Linux Journey](https://linuxjourney.com/) - Small, structured learning tracks to learn Linux concepts
 * [Basic Unix commands](https://mally.stanford.edu/~sr/computing/basic-unix.html) - Not super useful day-to-day, but it gives you a grasp on terminal commands
