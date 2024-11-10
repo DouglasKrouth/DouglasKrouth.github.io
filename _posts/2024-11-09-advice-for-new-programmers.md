@@ -1,19 +1,18 @@
 ---
 layout: post
 author: Douglas Krouth
-title: "Advice for junior developers and new programmers"
+title: "Advice for new programmers"
 categories: ["Unsolicited Advice"]
 original_publish_date: 11-09-2024
 ---
 **TL;DR**:<br>
-* YouTube won't teach you how to code
-* Used Lenovo ThinkPad's provide an adequate, affordable computer for learning how to code
+* Used Lenovo ThinkPad's provide an adequate, affordable computer to learn with
 * Give Linux a shot
 
 ***
 
 ## Buy a used Lenovo ThinkPad
-ThinkPad's provide an excellent system for learning to program. For a few hundred dollars (as of writing) and a bit of patience, you can have a computer that is not only capable of handling software development but also day-to-day use.
+If you're looking to get a "dedicated programming computer" or just a computer for tinkering with, ThinkPad's provide an excellent system for learning and messing with operating systems. For a few hundred dollars (as of writing) and a bit of patience, you can have a computer that is capable of handling software development and day-to-day use.
 
 I recommend installing Ubuntu or a Debian-based Linux distro (Linux Mint). Linux-based operating systems provide greater performance compared to Windows and are better suited to run on older hardware.
 
@@ -35,6 +34,6 @@ If you don't want to set up a dedicated computer to learn Linux/Unix system conc
 * [Linux Journey](https://linuxjourney.com/) - Small, structured learning tracks to learn Linux concepts
 * [Basic UNIX commands](https://mally.stanford.edu/~sr/computing/basic-unix.html) - Not super useful day-to-day, but it gives you a grasp on terminal commands
 
-<ins>Historical and meta stuff</ins>
+<ins>Fun historical stuff</ins>
 * [Unix vs. Linux](https://www.linuxjournal.com/content/unix-vs-linux-what-is-the-difference)
 * [Ken Thompson interviewed by Brian Kernighan](https://www.youtube.com/watch?v=EY6q5dv_B-o) - Inspiration for UNIX, some history on operating systems
