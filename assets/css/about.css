@@ -7,6 +7,14 @@
     width: 80%
 }
 
+.personal-facts-list {
+    list-style: none;
+}
+
+.personal-facts-list-item {
+    padding-bottom: 5px;
+}
+
 .about_grid {
     display: grid;
     gap: 50px;
@@ -41,6 +49,7 @@
 }
 
 .resume-download-container {
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
