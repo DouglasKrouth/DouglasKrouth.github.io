@@ -9,6 +9,7 @@
 
 .personal-facts-list {
     list-style: none;
+    padding: 0;
 }
 
 .personal-facts-list-item {
