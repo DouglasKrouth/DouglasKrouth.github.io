@@ -1,11 +1,11 @@
 ---
 layout: post
 author: Douglas Krouth
-title: "Stuff that I used to learn Rust"
+title: "Materials for learning Rust"
 categories: ["Unsolicited Advice"]
 original_publish_date: 11-15-2024
 ---
-*Haphazard list of resources that I thought were helpful for learning Rust. My attempt at condensing standard advice from the Rust community.*
+*A haphazard list of resources that I thought were helpful fur learning Rust-mostly an attempt at condensing standard advice from the Rust community.*
 
 **TL;DR**:<br>
 * Start with *Rustlings* and *Rust by Example*
@@ -24,3 +24,6 @@ I highly recommend keeping a browser with the Rust book open while completing th
 A more standard approach to learning the language, docs remind me of [*A Tour of Go*](https://go.dev/tour/list) or a more focused [*Tour of Scala*](https://docs.scala-lang.org/tour/tour-of-scala.html).
 
 The snippets are really quick to work through and offer a pared down option that can guide you through main concepts, "what's what" in the [Rust Book](https://doc.rust-lang.org/book/).
+
+## [Oort](https://oort.rs/)
+Review TBD. I've seen it highly regarded, will report back after completing it.

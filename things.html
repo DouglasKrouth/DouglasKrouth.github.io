@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Stuff
+title: Things
 ---
 <head>
     <meta charset="utf-8">
@@ -15,6 +15,7 @@ title: Stuff
                     <ul class="post-title-list">
                         {% for post in category.last %}
                         <li class="ind-post-li"><a href="{{ post.url }}"><span class="post-title">{{ post.title }}</span><span class="post-publish-date">   ({{ post.original_publish_date }})</span></a></li>
+                        <br>
                         {% endfor %}
                     </ul>
                 </li>

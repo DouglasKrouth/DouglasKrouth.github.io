@@ -1,6 +1,6 @@
 /* Navigation bar specific style sheet
 Inherit styles from main styles.css for font, etc. */
-@import url("styles.css");
+@import "/assets/css/styles.css";
 
 nav {
     display: flex;
@@ -41,16 +41,17 @@ nav {
     align-content: center;
     flex-direction: row;
     align-items: center;
+    padding-bottom: 10px;
 }
 
 .nav_link {
-    font-size: .9em;
+    font-size: 1em;
+    padding: 1.75vw;
 }
 
 .social_logo {
     height: 1.25em;
-    padding: 1.25vw;
-    margin-left: 2px
+    padding: 2vw;
 }
 
 .dk_logo {
