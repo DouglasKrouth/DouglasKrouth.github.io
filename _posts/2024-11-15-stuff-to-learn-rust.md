@@ -20,10 +20,29 @@ The material is broken into modules that each represent different language conce
 
 I highly recommend keeping a browser with the Rust book open while completing the modules; read as much as possible on each subject before progressing.
 
+***
+
 ## [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html)
 A more standard approach to learning the language, docs remind me of [*A Tour of Go*](https://go.dev/tour/list) or a more focused [*Tour of Scala*](https://docs.scala-lang.org/tour/tour-of-scala.html).
 
 The snippets are really quick to work through and offer a pared down option that can guide you through main concepts, "what's what" in the [Rust Book](https://doc.rust-lang.org/book/).
 
+***
+
+## [Easy Rust](https://dhghomon.github.io/easy_rust/Chapter_53.html)
+Great supplement to the *Rust Book*, provides a lot of examples.
+* [Box](https://dhghomon.github.io/easy_rust/Chapter_53.html)
+
+***
+
 ## [Oort](https://oort.rs/)
+<<<<<<< Updated upstream
 Review TBD. I've seen it highly regarded, will report back after completing it.
+=======
+Review TBD, will report back after completing it.
+
+***
+## Other tips
+* Pay attention to *rust-clippy* compile-time hints. Try implementing the hint or at least read the supporting documentation.
+
+>>>>>>> Stashed changes
