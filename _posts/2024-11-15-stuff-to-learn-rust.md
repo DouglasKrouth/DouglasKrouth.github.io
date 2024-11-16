@@ -36,6 +36,7 @@ Great supplement to the *Rust Book*, provides a lot of examples.
 ***
 
 ## [Oort](https://oort.rs/)
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 Review TBD. I've seen it highly regarded, will report back after completing it.
 =======
@@ -46,3 +47,10 @@ Review TBD, will report back after completing it.
 * Pay attention to *rust-clippy* compile-time hints. Try implementing the hint or at least read the supporting documentation.
 
 >>>>>>> Stashed changes
+=======
+Review TBD, will report back after completing it.
+
+## Other tips
+* Pay attention to *rust-clippy* compile-time hints. Try implementing the hint or at least read the supporting documentation.
+
+>>>>>>> 89be97f58ada068dd92bb4dd26e2183a80114db0
