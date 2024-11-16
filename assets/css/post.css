@@ -1,4 +1,5 @@
 @import "/assets/css/styles.css";
+@import "/assets/css/code_highlight.css";
 
 .post-container {
     width: 80%;

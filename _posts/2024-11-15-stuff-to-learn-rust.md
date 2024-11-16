@@ -26,4 +26,8 @@ A more standard approach to learning the language, docs remind me of [*A Tour of
 The snippets are really quick to work through and offer a pared down option that can guide you through main concepts, "what's what" in the [Rust Book](https://doc.rust-lang.org/book/).
 
 ## [Oort](https://oort.rs/)
-Review TBD. I've seen it highly regarded, will report back after completing it.
+Review TBD, will report back after completing it.
+
+## Other tips
+* Pay attention to *rust-clippy* compile-time hints. Try implementing the hint or at least read the supporting documentation.
+
