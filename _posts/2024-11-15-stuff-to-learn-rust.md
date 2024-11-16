@@ -5,7 +5,7 @@ title: "Materials for learning Rust"
 categories: ["Unsolicited Advice"]
 original_publish_date: 11-15-2024
 ---
-*A haphazard list of resources that I thought were helpful fur learning Rust-mostly an attempt at condensing standard advice from the Rust community.*
+*Resources that we're helpful for learning Rust; condensing standard advice from the Rust community.*
 
 **TL;DR**:<br>
 * Start with *Rustlings* and *Rust by Example*
