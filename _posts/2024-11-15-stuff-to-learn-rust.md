@@ -9,14 +9,13 @@ original_publish_date: 11-15-2024
 
 **TL;DR**:<br>
 * Start with *Rustlings* and *Rust by Example*
-* Oort is neat
-* Use the Rust Book as a reference
+* Supplement the *Rust Book* with *Easy Rust*
 
 ***
 ## [Rustlings](https://github.com/rust-lang/rustlings/) 
 I'm a huge fan of *Rustlings* and I believe it's the fastest way to learn Rust's syntax. It provides a bridge from knowing nothing about the language to actually being able to write small Rust programs, which is satisfying. The material also provides an alternative to the "just build something" advice/ethos that is commonly recommended when learning new languages. I don't believe the "just build something" advice is bad but I've found that Rust has a higher initial learning curve when compared to a language like Python or Bash.
 
-The material is broken into modules that each represent different language concepts; each model has a set of unit tests that you need to get to pass before progressing. I love this teaching style as it also serves to teach the language's test syntax. Go has similar projects ([gopherlings](https://github.com/soypat/gopherlings), [golings](https://github.com/mauricioabreu/golings)) that replicate this format.
+The material is broken into modules that each represent different language concepts; each model has a set of unit tests that you need to get to pass before progressing. I love this teaching style as it also serves to teach the language's test syntax. Go has similar projects (*[gopherlings](https://github.com/soypat/gopherlings)*, *[golings](https://github.com/mauricioabreu/golings)*) that replicate this format.
 
 I highly recommend keeping a browser with the Rust book open while completing the modules; read as much as possible on each subject before progressing.
 
@@ -33,24 +32,7 @@ The snippets are really quick to work through and offer a pared down option that
 Great supplement to the *Rust Book*, provides a lot of examples.
 * [Box](https://dhghomon.github.io/easy_rust/Chapter_53.html)
 
-***
-
-## [Oort](https://oort.rs/)
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-Review TBD. I've seen it highly regarded, will report back after completing it.
-=======
-Review TBD, will report back after completing it.
 
 ***
 ## Other tips
 * Pay attention to *rust-clippy* compile-time hints. Try implementing the hint or at least read the supporting documentation.
-
->>>>>>> Stashed changes
-=======
-Review TBD, will report back after completing it.
-
-## Other tips
-* Pay attention to *rust-clippy* compile-time hints. Try implementing the hint or at least read the supporting documentation.
-
->>>>>>> 89be97f58ada068dd92bb4dd26e2183a80114db0
