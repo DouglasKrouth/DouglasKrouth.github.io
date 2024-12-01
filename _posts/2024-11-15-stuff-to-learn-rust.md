@@ -28,11 +28,14 @@ The snippets are really quick to work through and offer a pared down option that
 
 ***
 
-## [Easy Rust](https://dhghomon.github.io/easy_rust/Chapter_53.html)
+## [Easy Rust](https://dhghomon.github.io/easy_rust/)
 Great supplement to the *Rust Book*, provides a lot of examples.
 * [Box](https://dhghomon.github.io/easy_rust/Chapter_53.html)
 
+## [Georust](https://book.georust.org/)
+Nice primer on Geospatial concepts, easy to follow examples for using Rust to process geospatial data.
 
 ***
-## Other tips
+## Potpourri
 * Pay attention to *rust-clippy* compile-time hints. Try implementing the hint or at least read the supporting documentation.
+* Another explanation of error handling : [w3cub's error handling in Rust](https://docs1.w3cub.com/rust/book/error-handling/#the-basics)
